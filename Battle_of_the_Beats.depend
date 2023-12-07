@@ -1,0 +1,62 @@
+# depslib dependency file v1.0
+1692635304 source:/home/pi/Downloads/Battle_of_the_Beats/main.cpp
+	<SFML/Graphics.hpp>
+	"Game.hpp"
+
+1696113675 /home/pi/Downloads/Battle_of_the_Beats/Game.hpp
+	<SFML/Graphics.hpp>
+	"Enemy.hpp"
+	"Player.hpp"
+	"Health.hpp"
+	"Music.hpp"
+
+1694472495 /home/pi/Downloads/Battle_of_the_Beats/Enemy.hpp
+	<SFML/Graphics.hpp>
+	<string>
+	<vector>
+
+1694967242 source:/home/pi/Downloads/Battle_of_the_Beats/Enemy.cpp
+	"Game.hpp"
+	"Enemy.hpp"
+
+1696089308 source:/home/pi/Downloads/Battle_of_the_Beats/Game.cpp
+	<SFML/Graphics.hpp>
+	"Game.hpp"
+	"Enemy.hpp"
+	"Player.hpp"
+	"Music.hpp"
+	"Menu.hpp"
+
+1696114234 /home/pi/Downloads/Battle_of_the_Beats/Player.hpp
+	<SFML/Graphics.hpp>
+	<string>
+	<vector>
+	<map>
+
+1696114234 source:/home/pi/Downloads/Battle_of_the_Beats/Player.cpp
+	"Game.hpp"
+	"Player.hpp"
+
+1696113316 /home/pi/Downloads/Battle_of_the_Beats/Health.hpp
+	<SFML/Graphics.hpp>
+	<string>
+
+1696088290 source:/home/pi/Downloads/Battle_of_the_Beats/Health.cpp
+	"Health.hpp"
+	<iostream>
+
+1694377985 source:/home/pi/Downloads/Battle_of_the_Beats/Music.cpp
+	"Music.hpp"
+	"Game.hpp"
+
+1694377985 /home/pi/Downloads/Battle_of_the_Beats/Music.hpp
+	<SFML/Audio.hpp>
+
+1696089900 /home/pi/Downloads/Battle_of_the_Beats/Menu.hpp
+	<SFML/Graphics.hpp>
+	"Game.hpp"
+
+1696089954 source:/home/pi/Downloads/Battle_of_the_Beats/Menu.cpp
+	"Menu.hpp"
+	"Game.hpp"
+
